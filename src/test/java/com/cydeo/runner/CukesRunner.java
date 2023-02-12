@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = ""    // and, or, and not  //  @wip - working in progress
+        tags = "@run"    // and, or, and not  //  @wip - working in progress
 )
 
 public class CukesRunner {
